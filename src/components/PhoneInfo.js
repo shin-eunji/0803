@@ -10,7 +10,7 @@ class PhoneInfo extends Component {
             margin: '8px',
         };
         return (
-            <div>
+            <div style={style}>
                 <div>{name}</div>
                 <div>{phone}</div>
             </div>
