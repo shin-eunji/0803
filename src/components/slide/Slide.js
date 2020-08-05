@@ -1,5 +1,5 @@
-import React, { useState } from 'react';
-import styled from 'styled-components';
+import React, { useState } from './node_modules/react';
+import styled from './node_modules/styled-components';
 
 import { ITEMS } from './constants';
 
