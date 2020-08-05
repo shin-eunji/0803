@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 
 class PhoneInfo extends Component {
     render() {
-        const { name, phone, id } = this.props.info;
+        // const { name, phone, id } = this.props.info;
 
         const style = {
             border: '1px solid black',
@@ -11,8 +11,8 @@ class PhoneInfo extends Component {
         };
         return (
             <div style={style}>
-                <div>{name}</div>
-                <div>{phone}</div>
+                {/* <div>{name}</div>
+                <div>{phone}</div> */}
             </div>
         );
     }
